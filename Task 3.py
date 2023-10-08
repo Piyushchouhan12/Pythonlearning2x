@@ -8,7 +8,8 @@ for i in range(1, 11):
     print(f"{num} x {i} = {result}")
 
 print("-----------------------")
-n = input('Enter a number\n')
+
+n = int(input('Enter a number\n'))
 print(f'{n} * 1 = {int(n)*1}')
 print(f'{n} * 2 = {int(n)*2}')
 print(f'{n} * 3 = {int(n)*3}')
