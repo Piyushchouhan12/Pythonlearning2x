@@ -18,7 +18,7 @@ result = (x == y)
 
 What does the ** operator do in Python, and how is it used?
 Answer:
-it is basically E to power. 
+it is basically E to power.
 
 In Python, the ** operator is used for exponentiation.
 It raises a number to a specific power. It is also known as the "power" or "exponentiation" operator.
@@ -40,13 +40,16 @@ print('The area of the circle is', area)
 
 # Create a program that takes two numbers as input and prints whether the first number is greater than, less than,
 # or equal to the second number.
-"""
-a=int(input("Enter the number\n"))
-b=int(input("Enter the number\n"))
 
-result= if a ==b
-"""
+a = int(input("Enter the a number\n"))
+b = int(input("Enter the b number\n"))
 
+if a > b:
+    print(a, " is greater than ", b)
+elif a < b:
+    print(a, " is lesser than ", b)
+else:
+    print(a, " is equal to ", b)
 # Use the ternary operator to find the maximum of three numbers entered by the user.
 First_num = int(input("Enter the first number\n"))
 Second_num = int(input("Enter the second number\n"))
@@ -56,12 +59,12 @@ max_value = First_num if First_num > Second_num else Second_num if Second_num > 
 print("The max value between three is", max_value)
 
 # Develop a Python script that calculates the square and cube of a given number.
-#for Square of number
-Sq=int(input("Enter a number\n"))
-Square =Sq**2
-print("The square of the Number is", Square )
+# for Square of number
+Sq = int(input("Enter a number\n"))
+Square = Sq ** 2
+print("The square of the Number is", Square)
 
-#For cube of a number
-Cu=int(input("Enter a number\n"))
-Cube=Cu**3
-print("The Cube of the Number is", Cube )
+# For cube of a number
+Cu = int(input("Enter a number\n"))
+Cube = Cu ** 3
+print("The Cube of the Number is", Cube)
