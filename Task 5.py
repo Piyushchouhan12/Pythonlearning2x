@@ -63,7 +63,5 @@ if (s1 == s2 == s3):
     print("The triangle is equilateral")
 elif (s1 == s2 ) or (s2== s3) or (s1==s3):
     print("The triangle is isosceles")
-elif (s1 != s2 != s3) :
-    print("The triangle is scalene")
 else:
-    print(None)
+    print("This Triangle is Scalene")
